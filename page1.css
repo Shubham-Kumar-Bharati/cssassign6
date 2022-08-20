@@ -1,0 +1,219 @@
+body{
+    /* margin: 0px; */
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./sahara-desert.jpg);
+    background-size: 100% 100%;
+}
+.main{
+    display: flex;
+    flex-flow: row-wrap;
+}
+/* .background{
+   
+} */
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+.sahara{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+.lorem1{
+    max-width: 500px;
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    color: white;
+    
+}
+.lorem2{
+    max-width: 500px;
+    position: absolute;
+    top: 370px;
+    left: 120px;
+    color: white;
+}
+.explore{
+    position: absolute;
+    top: 420px;
+    left: 120px;
+}
+button{
+    border: none;
+    padding: 10px;
+    max-width: 180px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+/* .header{
+  
+
+} */
+.nav{
+    max-width: 400px;
+    position: absolute;
+    top: 60px;
+    left: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    max-width: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    justify-content: space-around;
+}
+.flex-item{
+    margin: 10px;
+    max-width: 180px;
+    min-height: 200px;
+    border-radius: 10px ;
+    transition: all 0.25s linear ;
+    
+}
+.item1{
+    background-image: url(./western-desert.png);
+    background-size: 100% 100%;
+}
+.item2{
+    background-image: url(./bagawat.png);
+    background-size: 100% 100%;
+}
+.item3{
+    background-image: url(./pyramid.png);
+    background-size: 100% 100%;
+}
+.item4{
+    background-image: url(./kalahari.png);
+    background-size: 100% 100%;
+}
+.item{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.flex-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 5px black;
+}
+.text-decoration{
+    text-decoration: none;
+}
+/* @media (min-width:920px){
+    .nav{
+        position: absolute;
+        top: 40px;
+        left: 600px;
+    
+    }
+} */
+@media (min-width:420px) and (max-width:920px){
+    .logo{
+        top: 40px;
+        left: 70px;
+    }
+    .sahara{
+        font-size: 50px;
+        top: 80px;
+        left: 70px;
+    }
+    .lorem1{
+        max-width: 680px;
+        top: 130px;
+        left: 70px;
+        line-height: 25px;
+    }
+    .lorem2{
+        max-width: 680px;
+        top: 185px;
+        left: 70px;
+    }
+    .explore{
+        
+        top: 220px;
+        left: 70px;
+    }
+    .flex-container{
+        flex-flow: column wrap;
+        top: 280px;
+        left: 250px;
+    }
+    .flex-item{
+        max-width: 380px;
+    }
+    .nav{
+        position: absolute;
+        top: 40px;
+        left: 450px;
+    
+    }
+    
+}
+
+@media (max-width:415px) {
+    .logo{
+        top: 30px;
+        left: 25px;
+    }
+    .sahara{
+        font-size: 40px;
+        top: 80px;
+        left: 25px;
+    }
+    .lorem1{
+        max-width: 280px;
+        top: 120px;
+        left: 25px;
+        line-height: 25px;
+    }
+    .lorem2{
+        max-width: 280px;
+        top: 195px;
+        left: 25px;
+        line-height: 25px;
+    }
+    .explore{
+        top: 260px;
+        left: 25px;
+    }
+    .flex-container{
+        flex-flow: column wrap;
+        top: 300px;
+        left: 70px;
+    }
+    /* .header{
+       
+    } */
+    .nav{
+        flex-direction: column;
+        top: 20px;
+        left: 200px;
+        max-width: 100px;
+    }
+    .menu{
+        position: absolute;
+        top: 10px;
+        left: 90px;
+    }
+}
